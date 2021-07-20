@@ -1,0 +1,57 @@
+@media only screen and (max-width:760px){
+    .navbar-bran{
+        padding-left: 1rem;
+    }
+    .panel{
+        width: initial;
+        height: initial;
+        position: initial;
+    }
+    .cover{
+        background-position: -25vmin -10vmin;
+
+    }
+    .rect{
+        width: 10rem;
+        height: 8rem;
+
+    }
+    .rect h1{
+        font-size: 2rem;
+
+    }
+    .section-3{
+        height: inherit;
+        padding: 10vmin !important ;
+
+    }
+    .section-3 .row h1{
+        padding: 6vmin 4vmin;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center !important;
+    }
+    .desktop i{
+        font-size: 8vmin;
+    }
+    .section-4 .carousel-item{
+        padding-left: 0.5rem;
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+@media  only screen  and (max-width:425px){
+    footer .row .col-md-12{
+        margin-top: 8vmin;
+    }
+    
+}
+@media only screen and (max-width:320px){
+    .section-4 .card{
+        width: 18rem;
+        
+    }
+}
